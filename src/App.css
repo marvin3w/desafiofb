@@ -1,7 +1,82 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
 body{
-  background: #7159c1;
-  color: #fff;
+  background: #F2F2F2;
+  color: #3E3E3E;
   font-family: Arial, Helvetica, sans-serif;
+}   
+
+.main-header{
+  background-color: #4A90E2;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 42px;
+}
+
+.main-header a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+
+}
+.main-header a span{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-header a i{
+  margin-left: 8px;
+}
+
+
+.post {
+
+}
+.post .header {
+
+}
+.post .header figure{
+
+}
+.post .header figure img{
+
+}
+.post .header .name{
+
+}
+.post .header .date-post{
+
+}
+
+.post-content{
+
+}
+
+.comments{
+
+}
+
+
+.comment-body{
+  
+}
+.comment-body figure{
+
+}
+.comment-body figure img{
+
+}
+.comment-body .comment-content{
+
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(){
   return(
-    <header>
+    <header class="main-header">
       <h1>
         <img src="https://i.imgur.com/KDIDiSE.png" alt="Logo Facebook"/>
       </h1>
