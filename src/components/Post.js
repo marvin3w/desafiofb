@@ -7,13 +7,15 @@ function Post({ post }){
     <div className="post">
       <header>
         <figure>
-          <img src={post.author.name} />
+          <img src={post.author.avatar} />
         </figure>
-        <div className="name">
-          {post.author.name}
-        </div>
-        <div className="date-post">
-          {post.date}
+        <div className="details">
+          <div className="name">
+            {post.author.name}
+          </div>
+          <div className="date-post">
+            {post.date}
+          </div>
         </div>
       </header>
       <div className="post-content">

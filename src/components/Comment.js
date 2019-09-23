@@ -4,7 +4,7 @@ function Comment({ comment }){
   return(
     <div className="comment-body">
       <figure>
-        <img src={comment.author.name} />
+        <img src={comment.author.avatar} />
       </figure>
       <div className="comment-content">
         <b>{comment.author.name}</b> {comment.content}

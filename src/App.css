@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -11,6 +12,7 @@ body{
   background: #F2F2F2;
   color: #3E3E3E;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
 }   
 
 .main-header{
@@ -39,28 +41,68 @@ body{
   margin-left: 8px;
 }
 
-
+.postlist{
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 .post {
-
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
 }
-.post .header {
-
+.post header {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  
 }
-.post .header figure{
-
+.comment-body figure,
+.post header figure{
+  min-height: 32px;
+  min-width: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
 }
-.post .header figure img{
-
+.comment-body figure img,
+.post header figure img{
+  width: 100%;
 }
-.post .header .name{
-
+.post header .name{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #4A4A4A;
 }
-.post .header .date-post{
-
+.post header .date-post{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+  line-height: 13px;
+  
+  color: #9A9A9A;
 }
 
 .post-content{
+  border-bottom: 1px solid #EEEEEE;
+  padding: 20px 0;
 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  
+  color: #3E3E3E;
 }
 
 .comments{

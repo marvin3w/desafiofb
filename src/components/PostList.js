@@ -9,7 +9,7 @@ class PostList extends Component{
         id: 1,
         author: {
           name: 'Julio Alcantara',
-          avatar: 'http://url-da-imagem.com/imagem.jpg'
+          avatar: 'https://i.pravatar.cc/150?img=3'
         },
         date: '04 Jun 2019',
         content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
@@ -18,7 +18,7 @@ class PostList extends Component{
             id: 1,
             author: {
               name: 'Diego Fernandes',
-              avatar: 'http://url-da-imagem.com/imagem.jpg'
+              avatar: 'https://i.pravatar.cc/150?img=13'
             },
             content: "Conteúdo do comentário"
           }
@@ -28,7 +28,7 @@ class PostList extends Component{
         id: 2,
         author: {
           name: 'Nome do Usuário',
-          avatar: 'http://url-da-imagem.com/imagem.jpg'
+          avatar: 'https://i.pravatar.cc/150?img=23'
         },
         date: '04 Jun 2019',
         content: 'Texto do post',
@@ -37,7 +37,7 @@ class PostList extends Component{
             id: 2,
             author: {
               name: 'Diego Fernandes',
-              avatar: 'http://url-da-imagem.com/imagem.jpg'
+              avatar: 'https://i.pravatar.cc/150?img=33'
             },
             content: "Conteúdo do comentário"
           },
@@ -45,7 +45,7 @@ class PostList extends Component{
             id: 3,
             author: {
               name: 'Diego Fernandes',
-              avatar: 'http://url-da-imagem.com/imagem.jpg'
+              avatar: 'https://i.pravatar.cc/150?img=43'
             },
             content: "Conteúdo do comentário"
           }
