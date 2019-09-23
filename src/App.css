@@ -105,20 +105,31 @@ body{
   color: #3E3E3E;
 }
 
-.comments{
-
-}
-
-
 .comment-body{
+  margin-top: 20px;
   
+  display: flex;
 }
 .comment-body figure{
-
+  
 }
 .comment-body figure img{
-
+  
 }
 .comment-body .comment-content{
+  width: calc(100% - 40px);
+  background: #EEEEEE;
+  border-radius: 20px;
+  padding: 10px 15px;
 
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+  
+  color: #3E3E3E;
+}
+.comment-body .comment-content b{
+  font-weight: bold;
+  padding-right: 8px;
 }

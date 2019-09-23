@@ -20,7 +20,7 @@ class PostList extends Component{
               name: 'Diego Fernandes',
               avatar: 'https://i.pravatar.cc/150?img=13'
             },
-            content: "Conteúdo do comentário"
+            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque egestas arcu eget pulvinar. Maecenas venenatis, est non gravida commodo, justo purus viverra urna, malesuada sagittis metus turpis sed mauris. Nullam eleifend eros a elit auctor, ac dignissim leo consequat. Morbi sagittis congue dolor in aliquet."
           }
         ],
       },
